@@ -1,0 +1,128 @@
+
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  /* nav-style */
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 38px 65px;
+  }
+
+  /* h3 of nav style */
+  #mary{
+    font-size: 45px;
+    font-weight: 800;
+  }
+
+
+  /* mary name style */
+  #mary-style{
+    color: #FD6E0A;
+  }
+
+  /* list style changing */
+  nav ul li{
+    list-style: none;
+  }
+
+  /* anchor tag style */
+  nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+    margin-right: 50px;
+  }
+
+  nav ul{
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .button-hireme{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+
+
+
+
+  /* Background design */
+  header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+  }
+
+/* Banner design */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 580px;
+    margin: 0 35px 0 230px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-name{
+    font-size: 85px;
+    font-weight: 800;
+}
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+
+
+
+
+.download{
+    background-color: #FD6E0A;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+}
+.contact{
+    
+    border: none;
+    color:#FD6E0A;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid #FD6E0A;
+  
+}
+
