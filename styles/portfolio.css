@@ -126,3 +126,16 @@
   
 }
 
+
+/*About Section Design */
+.developer-details-section{
+  width: 700px;
+  height: 200px;
+  padding: 130px 150px;
+  background-color: #FFF8F3;
+  margin: 92px auto;
+}
+
+.developer-details-div{
+  background-color: #FFFFFF;
+}
